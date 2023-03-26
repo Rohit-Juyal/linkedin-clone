@@ -1,0 +1,18 @@
+.headerOption {
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerOption:hover {
+    color: black;
+}
+
+.headerOption__icon {
+    object-fit: cover;
+    width: 25px !important;
+    height: 25px !important;
+}
