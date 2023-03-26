@@ -18,7 +18,7 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
         <div className="sidebar__top">
-            <img src="https://images.unsplash.com/photo-1542202229-7d93c33f5d07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Zm9yZXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="cover" />
+            <img src="https://images.unsplash.com/photo-1557683304-673a23048d34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="cover" />
             <Avatar className='sidebar__avatar' src={user?.photoUrl} alt="profile" sx={{ width: 50, height: 50 }}>
                 {user.email[0].toUpperCase()}
             </Avatar>
